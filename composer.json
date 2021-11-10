@@ -12,5 +12,19 @@
       "email": "dofruindia@gmail.com"
     }
   ],
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "DateHolidays\\": "src/DateHolidays/"
+   },
+    "extra": {
+    "laravel": {
+      "providers": [
+        "DateHolidays\\Holidays"
+      ]
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.8"
+  }
 }
