@@ -26,5 +26,6 @@
     "psr-4": {
       "DateHolidays\\": "src/DateHolidays"
     }
-  }
+  },
+  "require": {}
 }
