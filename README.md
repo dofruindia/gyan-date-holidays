@@ -4,7 +4,7 @@ Library to fetch holidays of various countries
 ## Installation
 This project using composer.
 ```
-$ composer require dofruindia/gyan-date-holidays
+composer require dofruindia/gyan-date-holidays
 ```
 
 ## Usage
