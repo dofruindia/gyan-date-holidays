@@ -13,7 +13,7 @@ Library to fetch holidays of various countries
 <?php
 
 use DateHolidays\Holidays;
-
-$holidays = new Holidays('US');
+$api_key = "xxxx-xxxx-xxxx-xxxx-xxxx";
+$holidays = new Holidays('US',$api_key);
 echo $holidays->getAllHolidays();
 ```
