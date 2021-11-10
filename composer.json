@@ -16,8 +16,9 @@
   "autoload": {
     "psr-4": {
       "DateHolidays\\": "src/DateHolidays/"
-   },
-    "extra": {
+    }
+  },
+   "extra": {
     "laravel": {
       "providers": [
         "DateHolidays\\Holidays"
