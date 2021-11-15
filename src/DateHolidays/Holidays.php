@@ -18,7 +18,7 @@ class Holidays
     public function __construct($options)
     {
         $getYours = 'get yours at holiday.dofru.com';
-        $uuidRegExp = '/[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}/';
+        $uuidRegExp = '/[0-9w-z]{4}-[0-9w-z]{4}-[0-9w-z]{4}-[0-9w-z]{4}-[0-9a-f]{4}/';
 
         if (!isset($options['key'])) {
             throw new \Exception("Missing API key, {$getYours}");
