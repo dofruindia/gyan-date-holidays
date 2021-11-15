@@ -34,7 +34,7 @@ class Holidays
             throw new \Exception('Invalid version number, expected "1"');
         }
 
-        $this->baseUrl = "https://holidayapi.com/v{$version}/";
+        $this->baseUrl = "https://holiday.dofru.com/v{$version}/";
         $this->key = $options['key'];
 
         if (isset($options['handler'])) {
