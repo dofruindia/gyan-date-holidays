@@ -18,11 +18,7 @@
     "homepage": "https://holiday.dofru.com"
   }],
   "require": {
-<<<<<<< HEAD
     "php": ">=7.0",
-=======
-    "php": ">=7.4",
->>>>>>> bd3b492159e428fa2055d47ee8cf251e7a50530a
     "ext-json": "*",
     "ext-curl": "*"
   },
